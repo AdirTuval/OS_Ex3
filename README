@@ -1,0 +1,13 @@
+adirt, matanchen1
+Adit Tuval (207540956), Matan Chen (315549626)
+EX: 3
+
+FILES:
+README - this file.
+Makefile - the makefile for map reduce library.
+MapReduceFramework.cpp - implementation of map reduce library.
+MapReduceJob.cpp - main class of map reduce library.
+MapReduceJob.h - header file.
+ThreadContext.cpp - thread context class.
+ThreadContext.h - thread context header.
+

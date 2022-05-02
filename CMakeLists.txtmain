@@ -1,0 +1,14 @@
+cmake_minimum_required(VERSION 3.17.3)
+project(OS_Ex3)
+
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread")
+
+add_executable(OS_Ex3 MapReduceClient.h
+                MapReduceFramework.h
+                MapReduceFramework.cpp
+                MapReduceJob.h
+                MapReduceJob.cpp
+                ThreadContext.cpp
+                ThreadContext.h
+                "Sample Client/SampleClient.cpp")
